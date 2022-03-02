@@ -131,6 +131,9 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
+                                        <connections>
+                                            <segue destination="uSP-BQ-7DP" kind="show" id="8c5-0V-HOz"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -158,11 +161,21 @@
             <objects>
                 <viewController id="uSP-BQ-7DP" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q4I-4D-ReF">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9nM-Ic-NFU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Dominion" id="Tt9-NN-X2W"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="PuC-EE-DMM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="TKP-So-2Nu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gpY-Oh-mgw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -238,6 +251,9 @@
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                        <connections>
+                                            <segue destination="uSP-BQ-7DP" kind="show" id="vd6-rQ-KVQ"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -261,6 +277,9 @@
             <point key="canvasLocation" x="938" y="-297"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="8c5-0V-HOz"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
