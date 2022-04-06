@@ -44,7 +44,7 @@
 		1E16C9E227D14AFB00755699 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1E16C9E127D14AFB00755699 /* FirebaseStorage */; };
 		1E16C9E427D14AFB00755699 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 1E16C9E327D14AFB00755699 /* FirebaseStorageCombine-Community */; };
 		1E16C9E627D14AFB00755699 /* FirebaseStorageSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 1E16C9E527D14AFB00755699 /* FirebaseStorageSwift-Beta */; };
-		1ED96C6F27E51F2800F34C87 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ED96C6E27E51F2800F34C87 /* GoogleService-Info.plist */; };
+		1E72E99127FE4C0800A12456 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E72E99027FE4C0800A12456 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +78,7 @@
 		1E0A34EF27BB6E5B00B03619 /* DominionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0A34F327BB6E5B00B03619 /* DominionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominionUITests.swift; sourceTree = "<group>"; };
 		1E0A34F527BB6E5B00B03619 /* DominionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominionUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1ED96C6E27E51F2800F34C87 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E72E99027FE4C0800A12456 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +164,7 @@
 				1E0A34DB27BB6E5B00B03619 /* Assets.xcassets */,
 				1E0A34DD27BB6E5B00B03619 /* LaunchScreen.storyboard */,
 				1E0A34E027BB6E5B00B03619 /* Info.plist */,
-				1ED96C6E27E51F2800F34C87 /* GoogleService-Info.plist */,
+				1E72E99027FE4C0800A12456 /* GoogleService-Info.plist */,
 			);
 			path = Dominion;
 			sourceTree = "<group>";
@@ -324,7 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E0A34DF27BB6E5B00B03619 /* LaunchScreen.storyboard in Resources */,
-				1ED96C6F27E51F2800F34C87 /* GoogleService-Info.plist in Resources */,
+				1E72E99127FE4C0800A12456 /* GoogleService-Info.plist in Resources */,
 				1E0A34DC27BB6E5B00B03619 /* Assets.xcassets in Resources */,
 				1E0A34DA27BB6E5600B03619 /* Main.storyboard in Resources */,
 			);
